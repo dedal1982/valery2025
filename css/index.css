@@ -97,7 +97,7 @@ button {
   font-size: 40px;
   line-height: 100%;
   color: #090808;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.02em;
   opacity: 1;
   transition: all 0.3s ease-in-out;
 }
@@ -136,15 +136,14 @@ button {
   font-size: 115px;
   line-height: 100%;
   color: #090808;
-  letter-spacing: -0.02rem;
 }
 .promo__text p {
   font-weight: 400;
-  font-size: 31px;
+  font-size: 30px;
   line-height: 35px;
-  letter-spacing: -0.02rem;
   color: #090808;
   margin-top: 28px;
+  margin-left: 9px;
 }
 .promo__pic {
   width: 460px;
@@ -155,12 +154,13 @@ button {
 }
 .promo__pic img {
   width: 100%;
-  height: 100%;
+  height: 591px;
   object-fit: cover;
 }
 .promo__button {
   padding: 15px 46px;
   margin-top: 40px;
+  margin-left: 9px;
 }
 .promo__pic-txt {
   width: 100%;
@@ -170,7 +170,6 @@ button {
   background: #161317;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .promo__pic-txt h3 {
   font-family: "Vetrino.otf";
@@ -178,20 +177,25 @@ button {
   font-size: 64px;
   line-height: 100%;
   color: #ffffff;
-  letter-spacing: -0.02rem;
+  margin-left: 40px;
 }
 .promo__pic-txt ul {
   display: flex;
   flex-direction: column;
   gap: 21px;
   margin-top: 26px;
+  margin-left: 85px;
+}
+.promo__pic-txt ul a.active {
+  border-bottom: 1px solid #ffffff;
 }
 .promo__pic-txt ul li p,
 .promo__pic-txt ul li a {
-  font-weight: 550;
+  font-family: "HelveticaNeueCyr", sans-serif;
+  font-weight: 500;
   font-size: 24px;
+  line-height: 100%;
   color: #ffffff;
-  letter-spacing: -0.02em;
 }
 /*skills*/
 .skills {
@@ -216,11 +220,11 @@ button {
   display: flex;
   flex-direction: column;
   margin-left: 70px;
-  gap: 32px;
+  gap: 38px;
 }
 .skills__left-txt h2 {
-  font-weight: 400;
-  font-size: 65px;
+  font-weight: 500;
+  font-size: 64px;
   line-height: 100%;
   color: #ffffff;
 }
@@ -235,13 +239,39 @@ button {
   font-size: 40px;
   line-height: 100%;
   color: #ffffff;
-  letter-spacing: -0.02rem;
 }
 .skills__left-item p {
   font-family: "HelveticaNeueCyr", sans-serif;
   font-weight: 400;
   font-size: 30px;
-  line-height: 35px;
+  line-height: 43px;
   color: #ffffff;
-  letter-spacing: 0.8px;
+}
+.skills__gray {
+  width: 866px;
+  display: flex;
+  flex-direction: column;
+  padding: 70px 90px 78px 70px;
+  box-sizing: border-box;
+  background: #939393;
+  position: relative;
+  top: 31px;
+  gap: 38px;
+}
+.skills__gray h2 {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 100%;
+  color: #ffffff;
+}
+.skills__gray-item {
+  display: flex;
+  gap: 28px;
+}
+.skills__gray-item span {
+  font-family: "Vetrino.otf";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 100%;
+  color: #ffffff;
 }
