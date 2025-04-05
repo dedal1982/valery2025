@@ -251,7 +251,7 @@ button {
   width: 866px;
   display: flex;
   flex-direction: column;
-  padding: 70px 90px 78px 70px;
+  padding: 70px 85px 78px 70px;
   box-sizing: border-box;
   background: #939393;
   position: relative;
@@ -268,10 +268,36 @@ button {
   display: flex;
   gap: 28px;
 }
+.gap-item {
+  margin-top: 19px;
+}
 .skills__gray-item span {
+  width: 230px;
   font-family: "Vetrino.otf";
   font-weight: 400;
   font-size: 40px;
   line-height: 100%;
+  color: #ffffff;
+}
+.skills__gray-item-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+.skills__gray-item-txt h3 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  color: #ffffff;
+}
+.skills__gray-item-txt h4 {
+  font-weight: 400;
+  font-size: 30px;
+  color: #ffffff;
+}
+.skills__gray-item-txt h5 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 99%;
   color: #ffffff;
 }
