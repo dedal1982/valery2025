@@ -476,6 +476,7 @@ button {
 .skills__bottom {
   display: flex;
   flex-direction: column;
+  background: #f1f1f1;
 }
 .skills__bottom-top {
   max-width: 794px;
@@ -513,5 +514,59 @@ button {
 .skills__bottom-top-item p {
   font-weight: 400;
   font-size: 30px;
+  color: #090808;
+}
+.skills__bottom-hobby {
+  display: flex;
+  flex-direction: column;
+  margin: 500px auto 214px 194px;
+}
+.skills__bottom-hobby h2 {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 100%;
+}
+.skills__bottom-items {
+  display: flex;
+  margin-top: 39px;
+}
+.skills__bottom-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.skills__bottom-item h3 {
+  font-family: "Vetrino";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 100%;
+  color: #090808;
+}
+.skills__bottom-item p {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #090808;
+}
+.skills__bottom-item:nth-child(1) {
+  margin-right: 67px;
+}
+.skills__bottom-item:nth-child(2) {
+  margin-right: 77px;
+}
+.skills__bottom-item:nth-child(3) {
+  margin-right: 64px;
+}
+/*footer*/
+.footer {
+  width: 100%;
+  display: flex;
+}
+.footer h3 {
+  margin: 0 auto 79px;
+  font-family: "Vetrino";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
   color: #090808;
 }
