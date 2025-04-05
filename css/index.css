@@ -177,7 +177,7 @@ button {
   flex-direction: column;
 }
 .promo__pic-txt h3 {
-  font-family: "Vetrino.otf";
+  font-family: "Vetrino";
   font-weight: 400;
   font-size: 64px;
   line-height: 100%;
@@ -211,8 +211,9 @@ button {
   flex-direction: column;
 }
 .skills__top {
+  width: 100%;
   display: flex;
-  gap: 115px;
+  justify-content: space-between;
   background: #6f15c9;
   padding: 70px 83px 78px 124px;
   box-sizing: border-box;
@@ -240,7 +241,7 @@ button {
   gap: 22px;
 }
 .skills__left-item span {
-  font-family: "Vetrino.otf";
+  font-family: "Vetrino";
   font-weight: 400;
   font-size: 40px;
   line-height: 100%;
@@ -275,7 +276,7 @@ button {
 }
 .skills__gray-item span {
   width: 230px;
-  font-family: "Vetrino.otf";
+  font-family: "Vetrino";
   font-weight: 400;
   font-size: 40px;
   line-height: 100%;
@@ -343,6 +344,8 @@ button {
   margin-top: 37px;
 }
 .skills__right {
+  max-width: 714px;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -386,7 +389,7 @@ button {
   gap: 30px;
 }
 .skills__center-left h3 {
-  font-family: "Vetrino.otf";
+  font-family: "Vetrino";
   font-weight: 400;
   font-size: 36px;
   line-height: 100%;
@@ -422,7 +425,7 @@ button {
   gap: 21px;
 }
 .skills__center-right h3 {
-  font-family: "Vetrino.otf";
+  font-family: "Vetrino";
   font-weight: 400;
   font-size: 36px;
   line-height: 100%;
@@ -440,4 +443,75 @@ button {
 }
 .skills__center-right-txt p:nth-child(1) {
   margin-bottom: 34px;
+}
+.skills__right-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 29px;
+  row-gap: 32px;
+  margin-top: 69px;
+}
+.polygraphy {
+  padding: 17px 37px 13px 40px;
+}
+.ui-ux {
+  padding: 15px 41px 15px 41px;
+}
+.marketing {
+  padding: 15px 31px 15px 32px;
+}
+.layout {
+  padding: 14px 29px 16px 29px;
+}
+.copywriting {
+  padding: 15px 32px 15px 36px;
+}
+.branding {
+  padding: 15px 30px 15px 34px;
+}
+.skills__bottom {
+  display: flex;
+  flex-direction: column;
+}
+.skills__bottom {
+  display: flex;
+  flex-direction: column;
+}
+.skills__bottom-top {
+  max-width: 794px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 64px;
+  padding-bottom: 78px;
+  box-sizing: border-box;
+  margin-left: auto;
+  gap: 45px;
+}
+.skills__bottom-top h3 {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 100%;
+  color: #090808;
+}
+.skills__bottom-top-box {
+  display: flex;
+  gap: 80px;
+}
+.skills__bottom-top-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.skills__bottom-top-item h5 {
+  font-family: "Vetrino";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 100%;
+  color: #090808;
+}
+.skills__bottom-top-item p {
+  font-weight: 400;
+  font-size: 30px;
+  color: #090808;
 }
