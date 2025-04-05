@@ -23,6 +23,10 @@
   font-family: "Milky";
   src: url("../fonts/Milky.otf") format("opentype");
 }
+@font-face {
+  font-family: "Vetrino.otf";
+  src: url("../fonts/Vetrino.otf") format("opentype");
+}
 * {
   margin: 0;
   padding: 0;
@@ -44,11 +48,6 @@ h6,
 p {
   margin: 0;
 }
-h3 {
-  font-family: "HelveticaNeueCyr", sans-serif;
-  font-size: 64px;
-  line-height: 63.23px;
-}
 button {
   border: none;
   cursor: pointer;
@@ -69,6 +68,16 @@ button {
   -moz-text-size-adjust: 100%;
   color: #000000;
   overflow: hidden;
+}
+.link-button {
+  width: fit-content;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  color: #ffffff;
+  background: #6f15c9;
+  border-radius: 40px;
+  transition: all 0.3s ease-in-out;
 }
 .header {
   width: 100%;
@@ -96,15 +105,74 @@ button {
   opacity: 0.7;
 }
 .header__button {
+  padding: 15px 66px;
+}
+.link-button:hover {
+  background: #9d47f2;
+}
+/*promo*/
+.promo {
+  width: 100%;
+}
+.promo__wrapper {
+  padding: 158px 203px 139px 196px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.promo__text {
+  max-width: 940px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.promo__text h1 {
+  max-width: 676px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 115px;
+  line-height: 100%;
+  color: #090808;
+  letter-spacing: -0.02rem;
+}
+.promo__text p {
   font-weight: 400;
-  font-size: 32px;
+  font-size: 31px;
+  line-height: 35px;
+  letter-spacing: -0.02rem;
+  color: #090808;
+  margin-top: 28px;
+}
+.promo__pic {
+  width: 460px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 9px;
+}
+.promo__pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.promo__button {
+  padding: 15px 46px;
+  margin-top: 40px;
+}
+.promo__pic-txt {
+  width: 100%;
+  padding: 33px 10px 37px 10px;
+  box-sizing: border-box;
+  background: #161317;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.promo__pic h3 {
+  font-family: "Vetrino.otf";
+  font-weight: 400;
+  font-size: 64px;
   line-height: 100%;
   color: #ffffff;
-  background: #6f15c9;
-  padding: 15px 66px;
-  border-radius: 40px;
-  transition: all 0.3s ease-in-out;
-}
-.header__button:hover {
-  background: #9d47f2;
+  letter-spacing: -0.02rem;
 }
