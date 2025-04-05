@@ -212,7 +212,7 @@ button {
 }
 .skills__top {
   display: flex;
-  gap: 107px;
+  gap: 115px;
   background: #6f15c9;
   padding: 70px 83px 78px 124px;
   box-sizing: border-box;
@@ -350,7 +350,7 @@ button {
   display: flex;
   flex-direction: column;
   position: relative;
-  left: 45px;
+  left: 37px;
   top: -140px;
   gap: 5px;
 }
@@ -382,7 +382,7 @@ button {
 .skills__center-left {
   display: flex;
   flex-direction: column;
-  gap: 29px;
+  gap: 30px;
   margin-top: 38px;
 }
 .skills__center-left h3 {
