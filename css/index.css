@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/helveticaneuecyr_black.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/helveticaneuecyr_roman.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/helveticaneuecyr_thin.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/helveticaneuecyr_ultralight.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/helveticaneuecyr_ultralightitalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Milky";
+  src: url("../fonts/Milky.otf") format("opentype");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+h3 {
+  font-family: "HelveticaNeueCyr", sans-serif;
+  font-size: 64px;
+  line-height: 63.23px;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+.page {
+  background: #f1f1f1;
+}
+.page__content {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1920px;
+  width: 100%;
+  font-family: "HelveticaNeueCyr", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  color: #000000;
+  overflow: hidden;
+}
+.header {
+  width: 100%;
+}
+.header__wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 76px 203px 0 206px;
+  box-sizing: border-box;
+}
+.header__logo {
+  max-width: 230px;
+  width: 100%;
+  font-weight: 550;
+  font-size: 40px;
+  line-height: 100%;
+  color: #090808;
+  letter-spacing: -0.03em;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+.header__logo:hover {
+  opacity: 0.7;
+}
+.header__button {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  color: #ffffff;
+  background: #6f15c9;
+  padding: 15px 66px;
+  border-radius: 40px;
+  transition: all 0.3s ease-in-out;
+}
+.header__button:hover {
+  background: #9d47f2;
+}
