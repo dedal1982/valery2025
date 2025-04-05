@@ -216,6 +216,7 @@ button {
   background: #6f15c9;
   padding: 70px 83px 78px 124px;
   box-sizing: border-box;
+  height: 960px;
 }
 .skills__left {
   display: flex;
@@ -361,4 +362,57 @@ button {
   line-height: 147px;
   color: rgba(0, 0, 0, 0%);
   -webkit-text-stroke: 2px #ababab;
+}
+.skills__inner {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -196px;
+}
+.skills__inner h2 {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 100%;
+  color: #ffffff;
+}
+.skills__center {
+  display: flex;
+  gap: 148px;
+}
+.skills__center-left {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  margin-top: 38px;
+}
+.skills__center-left h3 {
+  font-family: "Vetrino.otf";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+  color: #ffffff;
+}
+.skills__center-left-items {
+  width: 240px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 15px;
+}
+.skills__center-left-items span {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+}
+.skills__center-left-items span:nth-child(3) {
+  background: transparent;
+}
+.fig {
+  width: 70px !important;
+  height: 70px !important;
+  border-radius: 10px;
+  object-fit: cover;
 }
