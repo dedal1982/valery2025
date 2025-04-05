@@ -115,7 +115,8 @@ button {
   width: 100%;
 }
 .promo__wrapper {
-  padding: 158px 203px 139px 196px;
+  padding-left: 196px;
+  padding-right: 203px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
@@ -125,6 +126,8 @@ button {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-top: 158px;
+  margin-bottom: 139px;
 }
 .promo__text h1 {
   max-width: 676px;
@@ -148,7 +151,7 @@ button {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-top: 9px;
+  top: 167px;
 }
 .promo__pic img {
   width: 100%;
@@ -161,18 +164,84 @@ button {
 }
 .promo__pic-txt {
   width: 100%;
-  padding: 33px 10px 37px 10px;
+  padding-top: 33px;
+  padding-bottom: 37px;
   box-sizing: border-box;
   background: #161317;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.promo__pic h3 {
+.promo__pic-txt h3 {
   font-family: "Vetrino.otf";
   font-weight: 400;
   font-size: 64px;
   line-height: 100%;
   color: #ffffff;
   letter-spacing: -0.02rem;
+}
+.promo__pic-txt ul {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  margin-top: 26px;
+}
+.promo__pic-txt ul li p,
+.promo__pic-txt ul li a {
+  font-weight: 550;
+  font-size: 24px;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+}
+/*skills*/
+.skills {
+  width: 100%;
+}
+.skills__wrappper {
+  display: flex;
+  flex-direction: column;
+}
+.skills__top {
+  display: flex;
+  gap: 107px;
+  background: #6f15c9;
+  padding: 70px 83px 78px 124px;
+  box-sizing: border-box;
+}
+.skills__left {
+  display: flex;
+  flex-direction: column;
+}
+.skills__left-txt {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+  gap: 32px;
+}
+.skills__left-txt h2 {
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 100%;
+  color: #ffffff;
+}
+.skills__left-item {
+  display: flex;
+  align-items: baseline;
+  gap: 22px;
+}
+.skills__left-item span {
+  font-family: "Vetrino.otf";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 100%;
+  color: #ffffff;
+  letter-spacing: -0.02rem;
+}
+.skills__left-item p {
+  font-family: "HelveticaNeueCyr", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #ffffff;
+  letter-spacing: 0.8px;
 }
