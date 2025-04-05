@@ -188,7 +188,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 21px;
-  margin-top: 26px;
+  margin-top: 30px;
   margin-left: 85px;
 }
 .promo__pic-txt ul a.active {
