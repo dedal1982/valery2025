@@ -582,7 +582,6 @@ button {
 .projects__wrapper {
   display: flex;
   flex-direction: column;
-  gap: 165px;
   padding-left: 203px;
   padding-right: 203px;
   margin: 91px auto 211px;
@@ -592,11 +591,26 @@ button {
   display: flex;
   justify-content: space-between;
 }
+.projects__item-europe {
+  margin-top: 159px;
+}
+.projects__item-psyhelp {
+  margin-top: 159px;
+}
+.projects__item-changes {
+  margin-top: 161px;
+}
+.projects__item-chic {
+  margin-top: 159px;
+}
 .projects__item-txt {
   max-width: 510px;
   width: 100%;
   display: flex;
   flex-direction: column;
+}
+.item-txt-two {
+  margin-top: 10px;
 }
 .projects__item-txt h2 {
   font-weight: 500;
@@ -610,6 +624,18 @@ button {
   gap: 30px;
   margin-top: 33px;
   max-width: 510px;
+}
+.projects__item-desc-europe {
+  gap: 50px;
+}
+.projects__item-desc-changes {
+  gap: 50px;
+}
+.projects__item-desc-two {
+  gap: 54px;
+}
+.projects__item-desc-four {
+  gap: 50px;
 }
 .projects__item-desc p {
   font-weight: 400;
@@ -635,6 +661,17 @@ button {
   width: 831px;
   height: 100%;
 }
+.projects__image-light {
+  margin-top: 5px;
+}
+.projects__image-one {
+  margin-top: 5px;
+}
+.projects__image-four {
+  margin-top: 5px;
+  width: 757px;
+  height: 476px;
+}
 /*project-item*/
 .project-item {
   width: 100%;
@@ -649,6 +686,19 @@ button {
   flex-direction: column;
   gap: 112px;
 }
+.project-item__wrapper-two {
+  margin: 79px auto 199px;
+}
+.project-item__wrapper-three {
+  margin: 72px auto 211px;
+}
+.project-item__wrapper-four {
+  margin: 72px auto 210px;
+  gap: 109px;
+}
+.project-item__wrapper-five {
+  margin: 72px auto 208px;
+}
 .project-item__item {
   margin-left: 68px;
 }
@@ -661,11 +711,19 @@ button {
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 77px 73px 80px 70px;
+  padding: 77px 70px 80px 70px;
   box-sizing: border-box;
   background: #6f15c9;
 }
+.project-item__left-four {
+  padding: 71px 66px 66px 70px;
+}
+.project-item__left-three {
+  margin-top: 10px;
+}
 .project-item__left-txt {
+  max-width: 725px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -686,21 +744,35 @@ button {
   display: flex;
   flex-direction: column;
   gap: 28px;
-  margin-top: 58px;
+  margin: 58px auto 0;
+}
+.project-item__images-one {
+  margin: 53px auto 0;
+}
+.project-item__images-two {
+  gap: 23px;
+  margin: 54px auto 0;
+}
+.project-item__images-four {
+  gap: 24px;
+  margin: 71px auto 0;
 }
 .project-item__images-five {
   display: flex;
   gap: 27px;
-  margin-top: 58px;
+  margin: 58px auto 0;
 }
 .project-item__top {
   display: flex;
-  gap: 29px;
+  justify-content: space-between;
+}
+.project-item__top-four {
+  gap: 23px;
 }
 .project-item__top-five {
   display: flex;
   flex-direction: column;
-  gap: 27px;
+  justify-content: space-between;
 }
 .project-item__right {
   max-width: 594px;
@@ -711,7 +783,13 @@ button {
 .project-item__right-txt {
   display: flex;
   flex-direction: column;
-  margin-top: 327px;
+  margin-top: 322px;
+}
+.project-item__right-txt-two {
+  margin-top: 321px;
+}
+.project-item__right-txt-three {
+  margin-top: 331px;
 }
 .project-item__right-txt h3 {
   font-weight: 500;
@@ -735,10 +813,22 @@ button {
   display: flex;
   flex-direction: column;
   gap: 35px;
-  margin-top: 46px;
+  margin-top: 48px;
+}
+.project-item__right-btns-two {
+  margin-top: 42px;
+}
+.project-item__right-btns-three {
+  margin-top: 41px;
+}
+.project-item__right-btns-four {
+  margin-top: 39px;
+}
+.project-item__right-btns-five {
+  margin-top: 55px;
 }
 .project-item__button {
-  padding: 16px 49px 14px 50px;
+  padding: 15px 53px 15px 52px;
 }
 .project-item__right-item {
   display: flex;
@@ -748,9 +838,41 @@ button {
   transform: rotate(45deg);
 }
 .project-item__button-prev {
-  padding: 16px 41px 14px 40px;
+  padding: 14px 43px 14px 42px;
   background: #ababab;
 }
 .project-item__right-item:hover .projects__arrow {
   transform: rotate(45deg);
+}
+.project-item-two {
+  width: 351px;
+  height: 186px;
+}
+.project-bot-two {
+  width: 100%;
+  height: 380px;
+}
+.project-item-three {
+  width: 337px;
+  height: 190px;
+}
+.project-bot-three {
+  width: 100%;
+  height: 394px;
+}
+.project-item-four {
+  width: 355px;
+  height: 325px;
+}
+.project-bot-four {
+  width: 100%;
+  height: 384px;
+}
+.project-item-five {
+  width: 433px;
+  height: 283px;
+}
+.project-bot-five {
+  width: 100%;
+  height: 592px;
 }
