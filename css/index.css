@@ -637,7 +637,7 @@ button {
   background: #f1f1f1;
 }
 .project-item__wrapper {
-  padding-left: 103px;
+  padding-left: 135px;
   padding-right: 203px;
   box-sizing: border-box;
   margin: 91px auto 201px;
@@ -647,4 +647,34 @@ button {
 }
 .project-item__item {
   margin-left: 100px;
+}
+.project-item__idea {
+  display: flex;
+  justify-content: space-between;
+}
+.project-item__left {
+  max-width: 866px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 77px 73px 80px 70px;
+  box-sizing: border-box;
+  background: #6f15c9;
+}
+.project-item__left-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.project-item__left-txt h2 {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 100%;
+  color: #ffffff;
+}
+.project-item__left-txt p {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  color: #ffffff;
 }
