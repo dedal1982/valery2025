@@ -678,3 +678,57 @@ button {
   line-height: 100%;
   color: #ffffff;
 }
+.project-item__images {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin-top: 58px;
+}
+.project-item__top {
+  display: flex;
+  gap: 29px;
+}
+.project-item__right {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.project-item__right-txt {
+  display: flex;
+  flex-direction: column;
+}
+.project-item__right-txt h3 {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 100%;
+  color: #090808;
+}
+.project-item__right-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  margin-top: 35px;
+}
+.project-item__right-txt p {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  color: #090808;
+}
+.project-item__right-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.project-item__button {
+  padding: 16px 49px 14px 50px;
+}
+.project-item__right-item {
+  display: flex;
+  gap: 20px;
+  margin-top: 46px;
+}
+.project-item__right-item:hover .projects__arrow {
+  transform: rotate(45deg);
+}
