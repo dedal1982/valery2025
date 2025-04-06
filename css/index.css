@@ -290,7 +290,7 @@ button {
 .skills__gray-item-txt h3 {
   font-weight: 700;
   font-size: 32px;
-  line-height: 37px;
+  line-height: 38px;
   color: #ffffff;
 }
 .skills__gray-item-txt h4 {
@@ -340,7 +340,7 @@ button {
 .skills__gray-items {
   display: flex;
   flex-direction: column;
-  gap: 55px;
+  gap: 53px;
   margin-top: 37px;
 }
 .skills__right {
