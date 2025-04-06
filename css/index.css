@@ -664,9 +664,6 @@ button {
 .projects__image-light {
   margin-top: 5px;
 }
-.projects__image-one {
-  margin-top: 5px;
-}
 .projects__image-four {
   margin-top: 5px;
   width: 757px;
@@ -691,6 +688,7 @@ button {
 }
 .project-item__wrapper-three {
   margin: 72px auto 211px;
+  gap: 108px;
 }
 .project-item__wrapper-four {
   margin: 72px auto 210px;
