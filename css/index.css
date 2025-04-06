@@ -688,9 +688,19 @@ button {
   gap: 28px;
   margin-top: 58px;
 }
+.project-item__images-five {
+  display: flex;
+  gap: 27px;
+  margin-top: 58px;
+}
 .project-item__top {
   display: flex;
   gap: 29px;
+}
+.project-item__top-five {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
 }
 .project-item__right {
   max-width: 594px;
