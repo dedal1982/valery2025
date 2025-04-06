@@ -73,7 +73,8 @@ button {
   color: #000000;
   overflow: hidden;
 }
-.link-button {
+.link-button,
+.link-button-prev {
   width: fit-content;
   font-weight: 400;
   font-size: 32px;
@@ -113,6 +114,9 @@ button {
 }
 .link-button:hover {
   background: #9d47f2;
+}
+.link-button-prev:hover {
+  background: #626262;
 }
 /*promo*/
 .promo {
@@ -689,7 +693,7 @@ button {
   gap: 29px;
 }
 .project-item__right {
-  max-width: 600px;
+  max-width: 594px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -697,6 +701,7 @@ button {
 .project-item__right-txt {
   display: flex;
   flex-direction: column;
+  margin-top: 327px;
 }
 .project-item__right-txt h3 {
   font-weight: 500;
@@ -720,6 +725,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 35px;
+  margin-top: 46px;
 }
 .project-item__button {
   padding: 16px 49px 14px 50px;
@@ -727,7 +733,13 @@ button {
 .project-item__right-item {
   display: flex;
   gap: 20px;
-  margin-top: 46px;
+}
+.project-item__right-item:hover .projects__arrow {
+  transform: rotate(45deg);
+}
+.project-item__button-prev {
+  padding: 16px 41px 14px 40px;
+  background: #ababab;
 }
 .project-item__right-item:hover .projects__arrow {
   transform: rotate(45deg);
