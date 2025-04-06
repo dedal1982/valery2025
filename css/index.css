@@ -570,3 +570,63 @@ button {
   line-height: 100%;
   color: #090808;
 }
+/*projects*/
+.projects {
+  width: 100%;
+  background: #f1f1f1;
+}
+.projects__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 165px;
+  padding-left: 203px;
+  padding-right: 203px;
+  margin: 91px auto 211px;
+  box-sizing: border-box;
+}
+.projects__item {
+  display: flex;
+  justify-content: space-between;
+}
+.projects__item-txt {
+  max-width: 510px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.projects__item-txt h2 {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 100%;
+  color: #090808;
+}
+.projects__item-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 33px;
+}
+.projects__item-desc p {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #090808;
+}
+.projects__item-btns {
+  display: flex;
+  gap: 20px;
+  margin-top: auto;
+}
+.projects__button {
+  padding: 16px 42px 14px 43px;
+}
+.projects__arrow {
+  transition: all 0.3s ease-in-out;
+}
+.projects__item-btns:hover .projects__arrow {
+  transform: rotate(45deg);
+}
+.projects__image {
+  width: 831px;
+  height: 100%;
+}
