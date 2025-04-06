@@ -605,6 +605,7 @@ button {
   flex-direction: column;
   gap: 30px;
   margin-top: 33px;
+  max-width: 510px;
 }
 .projects__item-desc p {
   font-weight: 400;
@@ -629,4 +630,21 @@ button {
 .projects__image {
   width: 831px;
   height: 100%;
+}
+/*project-item*/
+.project-item {
+  width: 100%;
+  background: #f1f1f1;
+}
+.project-item__wrapper {
+  padding-left: 103px;
+  padding-right: 203px;
+  box-sizing: border-box;
+  margin: 91px auto 201px;
+  display: flex;
+  flex-direction: column;
+  gap: 112px;
+}
+.project-item__item {
+  margin-left: 100px;
 }
