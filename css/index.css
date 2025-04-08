@@ -195,7 +195,10 @@ button {
   margin-top: 30px;
   margin-left: 85px;
 }
-.promo__pic-txt ul a.active {
+.promo__pic-txt ul a {
+  transition: all 0.3s ease-in-out;
+}
+.promo__pic-txt ul a:hover {
   border-bottom: 1px solid #ffffff;
 }
 .promo__pic-txt ul li p,
